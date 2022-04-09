@@ -1,0 +1,223 @@
+a:hover {
+    color: #0776df;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbaritems {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    height: 50px;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    justify-content: space-between;
+}
+
+.LogoViki {
+    justify-content: flex-start;
+    margin-left: 1.563rem;
+}
+
+.nav-link1 {
+    margin-left: 1.563rem;
+}
+
+.nav-link2 {
+    margin-left: 1.563rem;
+    justify-content: flex-end;
+}
+
+.ImgSeriePrin {
+    width: 100%;
+}
+
+main {
+    display: block;
+}
+
+.SeriePrin {
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top: 10%;
+    width: 50%;
+    padding: 5%;
+    height: 20%;
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.InfoSeriePrin {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.InfoSerieBoton {
+    background-color: rgb(15, 15, 15);
+    color: rgb(185, 185, 185);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.InfoSerieBoton2 {
+    background-color: rgb(33, 45, 51);
+    color: rgb(185, 185, 185);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+}
+
+.WatchParty {
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0.8rem;
+}
+
+.WPTitulo {
+    width: 100%;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 0.2rem;
+}
+ .WPSeries {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+ }
+
+ .Serie {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+ }
+
+ .GratisSerie {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    color: rgb(221, 221, 221);
+    font-weight: 300;
+ }
+
+ .NombreSerie {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 550;
+ }
+
+ .VikiPicks {
+    background-color: rgb(0, 0, 0);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0.8rem;
+}
+
+.VPTitulo {
+    width: 100%;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 0.2rem;
+}
+
+.VPSeries {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: nowrap;
+}
+
+.Serie {
+   display: flex;
+   flex-direction: column;
+   width: 23%;
+}
+
+@media screen and (max-width: 1252px) {
+    .InfoSeriePrin {
+        font-size: medium;
+    }
+    .InfoSerieBoton {
+        font-size: medium;
+    }
+    .InfoSerieBoton2 {
+        font-size: medium;
+    }
+    .navbaritems {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .InfoSeriePrin {
+        font-size: small;
+    }
+    .InfoSerieBoton {
+        font-size: medium;
+    }
+    .InfoSerieBoton2 {
+        font-size: medium;
+    }  
+}
+
+@media screen and (max-width: 992px){
+    .navbaritems {
+        justify-content: space-between;
+    }
+    .nav-link1 {
+        display: none;
+    }
+    .Lupaypalomitas {
+        flex-direction: row-reverse;
+        margin-right: 5%;
+    }
+    .nav-link2 {
+        display: none;
+    }
+    .InfoSeriePrin {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 816px) {
+    .InfoSerieBoton {
+        font-size: medium;
+    }
+    .InfoSerieBoton2 {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .SPTitulo {
+        font-size: large;
+    }
+    .InfoSerieBoton {
+        font-size: small;
+    }
+    
+    .InfoSerieBoton2 {
+        font-size: small;
+    }
+}
